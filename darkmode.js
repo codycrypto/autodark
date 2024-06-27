@@ -1,7 +1,7 @@
 javascript:(function() {
   if (document.querySelector('input#dark-mode-checkbox') === null) {
     const script = document.createElement('script');
-    script.src = 'https://gist.githubusercontent.com/username/gist-id/raw/filename.js';
+    script.src = 'https://github.com/codycrypto/autodark/edit/main/darkmode.js';
     script.onload = function() {
       document.querySelector('input#dark-mode-checkbox').click();
     };
